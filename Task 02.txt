@@ -1,0 +1,16 @@
+1. Load the rest countries data using your html and script.js file and run a for loop on the data and print all the country name in the console.
+   
+
+    
+2. Give a write up on Difference between copy by value and copy by reference.
+   
+   When you copy an object b = a both variables will point to the same address.
+   This behavior is called copy by reference value. Strictly speaking in Ruby and JavaScript
+   everything is copied by value. When it comes to objects though, the values happen to be 
+   memory addresses of those objects.
+
+3. How to copy by value a composite datatype (array+objects).
+   
+   var b= [10,20] // b holds some address like 8023 etc.. not 10 and 20. Therefore we can't clone data in composite data types. 
+   To do that spread operator is used, that is three dots (…), it spreads the elements of that particular array or object
+   and its values can be used to assign to some other variable.
